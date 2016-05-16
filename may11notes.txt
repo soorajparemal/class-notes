@@ -1,0 +1,1 @@
+bin contains machine code.dev contains charcter spcial files and block spcial files whch are used to accs machn prphrals.less passwd show evry usernms. less hosts maps ip adrss . .so stands for shard objct fles.proc-cpu info.root-super logn to root.sbin-contan machne codes of varios prgms.tmp-hold temprry files.src(source)containb source code.
