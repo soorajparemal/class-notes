@@ -1,0 +1,12 @@
+grep commnand used for identifying patterns in text files
+wc - word count
+general pattern of grep- grep pattern filename
+sed  command used for pattern matching & replacement
+ sed 's/cat/dog' data1 will substitute cat vwith dog
+sort command will sort words in alphabetical order
+$sort data1
+head command- $ head words
+unix pipes is a very interesting property
+ln command will provide a link from one directory to other
+dd command used for special copying
+ 
