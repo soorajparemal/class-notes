@@ -1,0 +1,6 @@
+-shell can act as both programming language as well as command interpreter.
+-white space is sigificant in shell scripts.
+-quoting suppressses metacharacters in shell.
+-Inorder to add the current directory to path , use :::  PATH=$PATH:.
+-while executing a command , shell first checks whether the command is internal or external and then looks up the folders in the path.
+
