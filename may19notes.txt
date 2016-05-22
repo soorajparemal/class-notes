@@ -1,0 +1,5 @@
+-we can use nano or gedit for casual text editing and emacs for more complex text editing.
+-shell interprets 0 as true and 1 as false unlike other languages.
+-Exit status for a succesfull script wil be 0 and for a unsuccesfull one will be 1.
+-exit status determines the output of a shell script
+
