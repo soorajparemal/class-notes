@@ -1,0 +1,5 @@
+-ifconfig is used for obtaining information regarding current available networks.
+-ping is used for connection status.
+-Backquotes are simple yet powerful tool in shell.it first executes the command inside the quotes and then assign its value to a variable
+eg::  n=`expr 1 '+' 2 ` :::::: the mathematical part inside the backquotes will be executed first and its value,ie 3,will be assigned to n.
+ 
