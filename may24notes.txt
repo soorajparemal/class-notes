@@ -1,0 +1,14 @@
+-GNU compiler is an optimising compiler. it accepts a c source code and generate an assembly language code from it.
+  - Its also a retargetable compiler. anybody can quite easily generate modifications GNU compiler to produce an assembly code running on a new architecture.
+
+--'du' command used to show disk space usage.
+
+--cc -v shows version info.
+
+--There are 4 stages associated with c compiler :: 1) preprocessing
+                                                   2)compilation proper
+                                                   3)assembling
+                                                   4)linking
+--second stage contains assembly code which is generated from source c code.Its the most difficult stage of the lot.
+--Third stage converts the assembly code to machine code with the help of assembler.
+--In final stage, all the processes are done and we get the complete file a.out which can run a c code.
