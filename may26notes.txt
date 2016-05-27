@@ -1,0 +1,15 @@
+
+
+-compilers are language translators ie, it takes language 'x' and converts it to language 'y' . interpretors are language evaluators.
+-python strings are immutable ie, no changes can be made to a string once stored.
+-lists in python are mutable . lists are very flexible and some interesting and useful changes can be made to it.
+-python3 is a more advanced form of python2 in many aspects.
+- pyhton string : >> a = 'hello world'
+                  >> print (a)
+                  >> hello world
+
+                  >>print ('what is your name? ')
+                  >>what is your name?
+-in list there is a command called range to print numbers given in the given range. although this is a good feature,it takes up a lot of memory.
+-many operations such as slicing,insertion,appending,deleting,replacing ... etc can be done to  list.
+ when we type a list ::  a = [1,2,3]  and 'a' = 'b', the list is not duplicated, a & b are reference points to the same list [1,2,3] in memory. *This is a very important point to be noted.
