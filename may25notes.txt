@@ -1,0 +1,20 @@
+             PYTHON LANGUAGE
+---------------------------------------------------------------------------
+
+-python is a dynamic high level language
+-c,c++,java are statical language
+-although python is an easy-to-learn language for beginners, its has got some drawbacks. dynamic langauges are prone to run time errors which can be very annoying for bigger proggrams.
+-python can be used anywhere except very low level languages.
+-python has REPL  - read,evaluate,print,loop.
+-indentation is VERY IMPORTANT in python language.
+
+
+     ::::Compilation & Execution of python::::
+
+python code execution is a two step proccess:
+
+          *compilation to byte code
+          *byte code interpretation
+
+-first the code is checked for syntax errors, if no error is found, the code is converted to byte code(virtual machine code).this byte code is for the virtual CPu to understand.
+-then the byte code interpretation is done. 
