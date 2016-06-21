@@ -1,0 +1,34 @@
+a= range(10)
+print a[::-1]  ---> returns a new reversed list.List is not mutated ,new list is obtained.
+
+'in' can be used in any python datatype for membership testing.
+
+a.sort()   ---> new MUTATED sorted list
+a.sorted() ---> neww sorted list .NOT MUTATED.
+
+ALways code in python on pythonic style
+
+for eg : consider repetition in python . for this , the order of preference must be ---> 1) list comprehension
+         2) for loop
+         3) while loop
+
+Output list is obtained by doing some transformation on input list.
+
+DICTIONARY is a set of Keys and Values.
+a={} --> empty dictionary .
+
+dictionary is a MUTABLE datastructure. it is not ordered. its mainly used for LOOKUP of a value . therefore no relevance in order. Keys HAS to be associated with Values.
+
+
+LIST and DICTIONARY CANNOT be used as a key in dictionary.
+
+possible keys of a dictionary ---> int,str,tuple----> immutable datatypes
+keys NOT possible on dictionary --> list,dict-----> mutable datatypes
+
+Keys HAVE to be MUTABLE. Values can be anything.
+
+dictionary is also called maps,associative arrays,hash.
+
+some builtin dict functions--> a.key(), a.value(), a.item().
+
+comprehension is also possible on  a dictionary.
