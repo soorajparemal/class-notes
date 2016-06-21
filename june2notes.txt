@@ -1,0 +1,51 @@
+We DO NOT have provision to change overwrite immutable datatypes.
+Aim of a programme is just to compute new values.
+In immutable datatypes,we cant modify existing values ,new values must be copied.
+Primary task of a set is to TEST FOR MEMBERSHIP.
+
+we use SET for MEMBERSHIP TESTING eventhough we can use LIST because of PERFORMANCE ISSUES.
+
+Fundamental requirements of a programme:
+         1) Correctness
+         2) must be Performant
+An ideal programme must consume less memory and less time to run.
+
+BIG-0 notation -- > 0(N) stands for 'of the order N' ie TIME proportional to N.
+N is the size of the code. 
+Its also called TIME COMPLEXITY.
+
+bubble sort has time complexity of order N**2.
+
+The best form of time complexity is 0(1). this means that the time is constant. time wont change with input size.
+
+"Constant time algorithms havin 0(1) is way better than of the order 0(N)"
+
+there wont be better algorithm than this.
+
+Indexing of an array in C is an example for constant time algorithm.
+
+In array indexing in C, only simple operations such as addition , multuplication and reading operation is done regardless of the size (adress+i*4).
+
+Table lookup must be very fast process. 
+Testing datatypes for lookup speed: for list --> -m timeit -s 'a=range(100)''(-10) in a'
+
+membership testing in list has time complexity of order N.
+       "      "    "   tuple has time complexity of order N.
+set has time complexity of order 1.
+
+this is done using hashing. Set is internally as a datastructure called hashtable.
+
+In hash table time complexity of membership testing is 0(1).
+Key lookup of key in dictionary is 0(1).
+
+Dictionary lookup-----\
+Set membership -------/  0(1).
+
+
+Tuple membership -----\
+List membership-------/  0(N).
+
+programming is an engineering activity.
+We must be able to reason.
+      
+
