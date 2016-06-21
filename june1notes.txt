@@ -1,0 +1,55 @@
+List is a mutable datastructure while tuple is a immutable datastructure.This means that we can perform some specific operations on a list and its flexible when compared to tuple which cannot be played upon.There are some drawbacks associated with mutable datastructure such as mutability makes it hard to reason about working of our code. Mutability + Aliasing results in making it difficult for us to understand the code.
+
+SET datastructure: set is commonly used for MEMBERSHIP TESTING. 
+set does not have any duplicate elements, every element in set is unique.
+set is UNORDERED.
+a/b --> union: combines sets.
+a&b --> intersection: common elements.
+a-b --> difference: remove elements from a that is present in b.
+a^b --> took union and remove common elements.
+
+set is MUTABLE.
+
+a.update(),a.remove() are some operations that can be used on a set 'a'.
+
+
+LIST COMPREHENSION is  VERY important . 
+SET COMPREHENSION is another VERY important property.
+COMPREHENSION can be used on list,set and dictionary.
+
+a={}
+type(a) => dictionary
+
+a={1,2}
+type(a) => set
+
+
+TUPLE: Its very similar to list. tuple is immutable . it uses braces.
+a=()
+type(a) => tuple.
+
+b=(1)
+type(b) => integer
+
+while, b=(1,)
+type(b) => tuple.
+
+TUPLE UNPACKING: eg-> p=(1,2,3)
+                      a,b,c = p
+                      print a  ------ 1
+                      print b --------2
+                      print c --------3
+here,1,2,3 gets allocated to a,b,c. it can also be used to SWAP variables.
+
+
+MORE string operations:
+
+ a=('hello world').split()
+--> ['hello' , 'world']
+a= ':'.join(['h','i','j'])
+---> h:i:j
+
+strip() removes all leading and trailing spaces.
+
+a=('my name is %s iam %d years old') %('suraj',21 )
+a= r('ab/ncd') ---> for raw printing.
