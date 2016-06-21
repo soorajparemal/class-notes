@@ -1,0 +1,36 @@
+Correctness and Performance are basic necessities of program.
+
+Memory management in C:
+-------------------------
+memory management associated with C is 'manual memory management'. 
+program starts of with a fixed amount of memory allocated by the OS.
+If it needs some more memory , it must asks the OS for more memory .
+it is done usin 'malloc' function. 
+
+pointer variable contains adress of other objects in our programme.
+
+ALWAYS use "free" after malloc. free says OS to free the memory allocated earlier since it is not in use anymore.
+
+once block is freed,it can be used by other proframmews or the same programme if needed.
+
+we MUST free allocated memory after usage, its a good habit.
+
+Local variable::----> Space for local variable is allocated when the function starts running and get dealocated automaticxally at the end of the function. once the function ends , it CANNOT be used again.
+
+
+Global variable::----> Space allocated at start of the programme and deallocated at end of the programme . global variable can be used fromn any function.
+
+variables can be divided into 3 ---> Local,Global and malloced block.
+
+
+usleep() slows down the loop a little. realloc used for changing size of allocated block.
+
+Manual memory allocation is very tricky in large programmes.some common mistakes occuring are:
+        1) allocated and then forget to reallocate
+        2) calling free more than once
+        3) using block after calling free
+        4) same adress used while malloc must be used for free.
+
+
+Automatic memory management used in python,java,perl,ruby,lisp etc.
+ 
