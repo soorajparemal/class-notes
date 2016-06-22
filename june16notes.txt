@@ -1,0 +1,18 @@
+Parameters with a default value must be grouped together in a function.
+
+Variable argument functions(VAR-ARGS function) are functions which accepts any number of parameters.Its denoted with a '*'. Parameters are collected as a tuple. '**' collects values and parameters as a dictionary.
+
+printf() and scanf() are elementary var-args functions in c.
+
+Its easier to use var-args function in pyhgton than in c .
+
+Python supports NAMED ARGUMENTS.
+
+There are 2 types of functions:
+
+	1) one which simply performs a set of actions.
+	2)other,which performs computation by returning a value.
+
+Inner regions of a function is called SCOPE of a function.
+
+2 BINDINGS can have the same name. But one must be a local binding while other must be global.
