@@ -1,0 +1,26 @@
+if there is no local variable for ,say x, what we see is the global variable.
+If there is local variable,it will SHADOW the global variable.
+
+In most cases we can guess the way a programme will act from reading the code.
+But UnboundLocalError is an error which cannot be understood easily .
+
+2 steps associated with python compilation:
+	1) checks the syntax and generate the BYTE code using python COMPILER.
+	2) run the Byte code using the Python Virtual Machine.
+
+Having a lot of global variable in  our programme is not a good thing to do.
+	it creates a lot of dependancies.Any modification in a global variable will affect other functions in the programme. We dont have to worry about this in case of local variables.
+
+() ---> function call operator.
+There is no issue if we just write function name without the function call operator.
+
+
+Function name can be assigned to ANY variable and can be accesed through that variable.
+
+Functions are "First Class Entities" ::--> ie, any type of manipulations that can be done on a python object can be done on a Function.
+
+A functions body is its MACHINE code(byte code in case of python) .
+
+we can use call operators inside a function inorder to use a function as a parameter to another function.
+
+functions operatinf upon other functions are called "Higher Order Functios".
