@@ -1,0 +1,67 @@
+  # tcp/ip is a communication protocol (transmission control protocol/internet protocol)
+   
+   # protocols are important for communication between machines on global internet.
+   
+   # data passes through a lot of in-between machines called gateways/routers
+   
+   # "traceroute" command is used to find path between our machine and other machines on net
+   
+   # protocol is basically some kind of code which manages data transfer from A-->B
+  
+  # we can see the code as a part of OS Kernel
+  
+  # an IP address is a unique id. ipv6 is now taking over ipv4 as it has more adress space (ipv4- 2^32 , ipv6- 2^128)
+  
+  # client is the entity which initiates communication and server is the one responding.
+  
+  # client has to know server adress at the very beginning but not vice versa since server gets client adress from the request client sends
+  
+  # ip adress identifies a machine but communication is done between the programmes running on the machine
+  
+  # particular programmes are identified using port numbers which are basically integer values. its a two tuple format (ip_adress,port_num)
+  
+  # majority of work done during data transfer is done by OS Kernel. its bcos protocol code is present in OS kernel
+  
+  # OS Kernel is internally buffered so that data wont be lost if server is busy .The data can be retrieved from this buffer
+  
+  # 127.0.0.1--> loopback IP adress :: it can make programmes running on same machine to communicate with each other . data wont be send over     the network , it remains on our machine
+  
+  # tcp/ip is a collection of protocols. there are othre protocols like --> udp : user datagram protocol
+  
+         icmp : internet control message protocol
+         arp : address resolution protocol
+         rarp : reverse adress resolution protocol
+  
+  # ip does CORE ROUTING
+  
+  # tcp and udp links ip with user processes
+  
+  # tcp is more reliable than udp but udp is much simpler.
+  
+  # "ping" command look for a path ti a destoination machine and checks its status.
+ 
+  # BERKLEY SOCKET library is  a api. Its the basis on top of which everything is build.
+  
+  # fd-- file descriptor
+  
+  # AF_INET --> adress family IP
+  
+  # AF_INET --> telling the OS kernel that we want to communicate using tcp/ip
+  
+    SOCK_DGRAM --> telling the OS kernel want to communicate with udp
+  
+  # SOCK_STREAM to communicate with tcp
+  
+  # format : fd.socket(('127.0.0.1'(ip adress), 8000(port number)))
+  
+  # example client programme:
+          from socket import *
+          fd=socket(AF_INET,SOCK_DGRAM)
+          fd.sendto('hello',('127.0.0.1',8000))
+  
+  # example server programme:
+          from socket import *
+          fd=socket(AF_INET,SOCK_DGRAM)
+          fd.bind(('127.0.0.1',8000))
+          fd.recvfrom(100)
+
