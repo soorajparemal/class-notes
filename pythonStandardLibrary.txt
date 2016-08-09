@@ -1,0 +1,6 @@
+* os module - os and os.path modules provides functionality to work with files,directories etc.
+* urlib module - provides functionality to download pages.
+* re module - provides regular expression matching operations.
+*json module - exposes a an API familiar to users of the standard library marshal and pickle modules.
+*zipfile module - provides an interface to read and write zipfiles.
+*
