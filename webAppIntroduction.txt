@@ -1,0 +1,33 @@
+> Web app is a client-server application that runs in a web browser.
+
+> webapps = web applications + websites + webpages
+
+> Using a webapp - THE STEPS:
+	1)open a browser application
+	2)Enter the address
+	3)The browser fetches data from the server
+	4)The browser displays the webpage
+
+> Browers is a software which needs to be installed ona device to use webapps.
+	
+> Browser can make requests to servers using URLs and render the response data
+
+> Computer programs that can make requests to servers and fetch responses are called CLIENTS. when those programs make requests to web servers , they are called WEB CLIENTS .A browser is a web lient.
+
+> the content of a webapp can be text/plain , text/html , image/png , application/pdf.
+
+> Modern browsers can interpret and run code written by app author. It makes page interactive and dynamic .
+
+> URL --> URL identifies both server and the resource. it stands for Uniform Resource Locator. Its informally called web address. Main purpose is to find a resource on the internet.
+
+> A URL 'http://www.flipkart.com/books/pr?sid=bks&q=web+app' can be broken down into  :
+--> 'http://' , which is the PROTOCOL. Protocol defines the rules/modes of communication between the client and server fo the request.
+--> 'ww.flipkart.com', which is the HOSTNAME .It identifies the server  which will serve the request.It contains the domain name .
+--> 'books/pr', which is the PATH. It defines the request which is being requested.It typically points to a webapp.
+--> 'sid...web+apps', which is the QUERY STRING, it typically contains any additional parameters that is typically used to add more context to the same path.
+
+> DNS(domain name system) - is like a directory which links the domain name to the IP address of thye server . Every server have a unique IP adress which clients can use to connect with it over the internet. This IP address is mapped to a ahuman friendly domain name to make it easy to remember. The directory is maintained by 'name-servers'.programs can exchange the domain name for the registered IP adress by requesting the nae server .This is called 'DNS lookup'.
+
+> Our computer connected to router connected to our ISP,connected to other ISP ,finally connected to another computer. A program can send request ona a networl by mentioning IP address of other computer and the network will route our request to the computer that has that IP.
+
+> Web server can listen to reequests and respond back with data on the same connection. server can be an actual computer where software is installed. 
