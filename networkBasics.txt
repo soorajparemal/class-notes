@@ -1,0 +1,21 @@
+---> A network is simplya collection of computers that can communicate with each other .
+
+---> A computer is connected to a network typically via Wifi or ethernet .
+
+---> Each network ona a computer is called a host .
+
+---> Terms like LAN & WAN are used to describe different networks types on netwrok size and config.
+
+---> A simple router is a router with some computers connected to it. By default the IP adress 127.0.0.1 refers to host itself.
+
+---> Internet is worlds  largest computer network .
+
+---> IP - Internet Protocol . An IP network is a communication network that uses Internet protocol to send and recieve messages btwn one or more computers .
+
+---> Every host on network has a  unique IP adress. IP adress is a 32bit number. Host can have   a static or dynamic IP.
+
+---> programs use port numbers as adresses within the same computers. Port numbers vary from 1 to 65536 . Websites usually run on port 80 for http and port 443 for https. Browser tries to reach port 80 or 443 unless specified.
+
+---> Web serrvers and clients agree to communicate in a format called HTTP (hypertext transfer protocol) . HTTP mandates URL (uniform resource locator), Headers , method type and body.
+
+---> Browser is a program that can connect to some program (the server) on some machine somewhere on the network .
