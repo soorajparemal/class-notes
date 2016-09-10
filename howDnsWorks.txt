@@ -1,0 +1,37 @@
+---> computers and other devices communicate using IP addresses to identify each other on the internet .
+
+---> But humans cant remember IP addresess so they use names.
+
+---> The domain name system(DNS) brings the two together name and Ip adress and gets you to your destination.
+
+---> when we type in  a domain name in the browser , a new request is send to the browser. for example if we enter 'abc.com' ,the browser checks for itself whether it can find the address.
+
+---> if the browser was not able to locate 'abc.com', it asks the OS for help.
+
+---> The bowser and OS both searched their cache first to see if they knew the IP for 'abc.com'. But since they didnt, the OS is calling the RESOLVER. 
+
+---> The resolver server is usually your ISP(internet service provider) . All resolvers must know where to locate the root server .
+
+---> The resolver asks the Root server for help. The ROOT server knows where to locate the .COM TLD server . TLD=Top-Level Domain.
+
+---> Resolver asks Root server where to find the IP address for 'abc.com' . If the root server cant find the IP adress , it informs the Resolver where to find the .COM top-level domain server .The resolver Seves this information so that it wont need to ask the root again if the same problem arises.
+
+---> This Root server is just one of the 13 root name servers thst exist today. Root servers sit on top of the DNS hierarchy. They are scatered around the globe and operated by 12 independent organisation. they are named [letter].root-servers.net ,where letters range from A to M. Each organisation provides multiple physical servers distributed around the globe. 
+
+---> Next, the Resolver asks .COM TLD for help. The cordination of most top-level domains belong to the Internet Corporation For Assigned Names and Numbers (ICANN). The .COM TLD was one of the first created in 1985 and is now the largest TLD on  the internet . If .COM TLD cant find the IP, it redirects the Resolver to the Name servers . The resolver will save this information. 
+
+---> The .COM found the authorative name servers for the domain 'abc.com'. The .COM TLD server point the Resolver to the Authoratiove name server with the help of Domain Registrar . When a domai is purchased , the Domain registrar reserves the name and communicates to TLD registry ,teh autorative name servers . 
+
+---> The resolver asks say, ns1.abc.com , where to locate thye IP adress to abc.com. There will be multiple name servers that can resolve any domain managed by 'abc,com' . They can provide answer to DNS queries, website IP adress , mail IP adress etc. They are the ultimate authority on this stuff. no cached values , not asking someonme else . Only the Real Deal. 
+
+--> Usualy there is more than one name server attacxhed to any domain . The Resolver might be given this server names in some unknown order .
+
+---> Because there is more name servers , the work load is distributed and DNS zone availibilty is increased , especially in case of failure. 
+
+---> To find authoritive name servers for our domain run a WHOIS tool query . 
+
+---> The resover can finally get the IP adress it was looking for thanks to the authorative name server . 
+
+---> Browser --> OS --> Resolver --> Root --> .COM TLD --> Authoritive Name Server --> ns1.abc.com gave IP adress.
+
+---> When the server asked the .COM TLD about 'abc.com' ,extra info was attached to that response . THe resolver got at least one IP asress for each name server . This can be caled glue records . So that Resolver not only got the name records but also the IP adress. 
