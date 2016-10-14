@@ -1,0 +1,27 @@
+-----------
+
++ Is python an interpreted language or a compiled language . Why ?
++ Difference between xrange and range.
++ Why did you choose python over other languages.
++ Different ways of string formatting.
++ a=['hello'] ,  def f(n): a=['world'] . Will the value of a change if f(a) is performed. 
++ Data structures.
++ Properties of key,value pairs in dictionary.
++ Reversing lists , accessing list elements .
++ List comprehension. Example.
++ Objects . Example.
++ Regular expressions. 
++ Do you follow any style of code.
+---------
+
+Machine Test (could only remember 7 out of 9 questions):
+
++ Print out all the email ids from a given string using regular expressions.
++ Function to print out the sum of powers of all the elements of list in a given range : sum_of_powers(starting_point,end_point,power).
++ Functon to convert postfix to infix.
++ Function to print elements of a list in reverse order using generator.
++ Function to sort a list of dictionaries  according to a given key without using sort() or sorted() .
++ Function to check if a string is an anagram of another string.
++ Function to drop every nth element from a list.  
++ 
++
