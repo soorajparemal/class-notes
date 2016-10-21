@@ -1,0 +1,42 @@
+1. 1,2,3,4
+
+2. Error. Should have used **b as the arguments are keyworded arguments.
+
+3. map --> map(a_function,a_sequence) --> map(sqr,[1,2,3,4])
+   filter --> extracts each elemnet in sequence for which function returns True.
+   filter((lambda x:x<0),range(5))
+   reduce --> reduces list to a single value by combinig elements via a supplied function. reduce((lambda x,y:x*y),[1,2,3,4])
+
+4. any() --> returns True when atleast one of the element is Truthy   
+   all()--> returns true only when all the elements are Truthy
+
+5. def fibo(n):
+   if n <= 1:
+       return n
+   else:
+       return(fibo(n-1) + fibo(n-2))
+
+6. Delete remote branch --> git push origin --delete <branch_name>
+   Delete local branch --> git branch -d <local_branch_name>
+
+7. Python --> pdb
+   javaScript--> console.log() method,debugger keyword
+
+8. delegate --> attach a handler to one or more events for all elements that match the selector , now or in the future ,nased on a specific set of root elements.
+   on --> Attach an event handler function for one or more events to the selected elements.
+
+9. The self variable refers to the object itself.
+
+10. To override __init__ method , we must explicitly call the parent __init__ with the correct parameters .
+
+11. Using static method.
+
+12. git reset --> it is specifically about updating the index , moving the head.resets index to match head ,working tree left alone.
+    git checkout --> it is about updating the working tree . It will update the head only if you checkout a branch.
+
+13. Id's are unique , classes are not unique.
+
+14. LIKE --> used to search for a specified pattern in a column. 
+    IN --> alows us to specify multiple values in a WHERE clause.
+    CASE --> it is SQL's way of handling if/then logic. It is followed by at least one pair of WHEN and THEN statements.
+    INNER JOIN --> It selects all rows from both tables as long as there is a match between the columns in both tables.
