@@ -1,0 +1,15 @@
+Diffrerent methods of string formatting:
+let a='hey' and b='wassup'
+
+> print(a ,'buddy' ,b ,'!')
+
+> print(a + 'buddy '+b+' !' )
+
+> print('{} buddy {} !'.format(a,b))  *Ideal method
+
+If a=['hey','there','wassup']
+
+> print ','.join(a)
+
+> also os.path.join method can be used
+
