@@ -1,3 +1,4 @@
-x=re.search('(\w+[.|\w])*@(\w+[.])*\w+',email4)
-x.group()
-
+import re
+email='srjps202#gmail.com , abc@gmail.com'
+match = re.findall(r'[\w\.-]+@[\w\.-]+',email)
+match
